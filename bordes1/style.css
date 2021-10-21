@@ -1,0 +1,20 @@
+*{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#b{
+    border: 20px solid greenyellow;
+    width: 250px;
+    height: 200px;
+    font-size: 22px;
+    padding: 20px;
+    background-color: darkred;
+    color: white;
+    border-image: url(marco.png) 120 stretch;
+    /*border-image-source: url(marco.png);
+    border-image-slice: 24%;
+    border-image-repeat: repeat round;
+    border-image-width: 30px;
+    border-image-outset: 10px;*/
+}

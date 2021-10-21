@@ -1,0 +1,66 @@
+.luna{
+    width: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 24px;
+    padding: 10px;
+
+
+}
+
+img:hover{
+    box-shadow: 0 0 12px 15px rgba(173, 52, 52, 0.5);
+}
+
+.img{
+    width: 50%;
+    padding: 50px 250px ;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+  
+    
+}
+
+div.lobo{
+    position: relative;
+    
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 14px 28px rgba(0, 0, 0, 0.19);
+    margin-bottom: 35px;
+    
+}
+
+div.texto{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+div.texto_lobo{
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    font-size: 48px;
+    color: royalblue;
+    transform: translate(-50%,-50%);
+}
+
+.lobo:hover .img{
+    opacity: 0.3;
+}
+
+.lobo:hover .texto_lobo{
+    opacity: 1;
+}
+
+.efecto_text{
+    background-color: blueviolet;
+    padding: 6px ;
+}

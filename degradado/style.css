@@ -1,0 +1,10 @@
+#degradado{
+    border: 2px solid black;
+    width: 480px;
+    height: 480px;
+    background: repeating-linear-gradient(
+        180deg, yellow,yellow 10px, red 10px , red 20px
+    );
+  /*  background: repeating-radial-gradient(red,green);
+    background: linear-gradient( 45deg, orange,rgb(197, 27, 27));*/
+}

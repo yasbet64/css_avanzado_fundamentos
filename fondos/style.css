@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.container{
+    
+    display: flex;
+    flex-direction: row ;
+    
+}
+#fondo{
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    font-size: 24px;
+    background-color: mediumaquamarine;
+    background-clip: content-box;
+
+    /*background: url(plato.png) center/180px no-repeat,
+    url(mesa.jpg) center/cover no-repeat;*/
+
+    /*background: url(balon.jpg) top /100px no-repeat;
+    background-size: contain;*/
+}

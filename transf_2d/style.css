@@ -1,0 +1,31 @@
+/*div{
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(orange,red);
+    border: 7px solid darkgreen;
+    transform: translate(400px);
+    transform: skewX(10deg);
+    transform: scaleX(2);
+}
+*/
+*{
+    margin: 20px;
+}
+div{
+    background: linear-gradient(180deg, red, orange);
+    width: 200px;
+    height: 200px;
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+}
+
+@keyframes skew{
+    0%{
+        transform: skew(20deg,20deg);
+    }
+    100%{
+        transform: skew(-20deg,-20deg);
+    }
+
+}
